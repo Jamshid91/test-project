@@ -1,9 +1,9 @@
-let buttons = document.querySelectorAll(".reviews button");
+// Start slider photo news
+let buttons = document.querySelectorAll(".photos-slider button");
 
 let [left, right] = buttons
-console.log(left, right)
 
-let reviews = document.querySelectorAll(".review");
+let reviews = document.querySelectorAll(".img");
 let i = 0;
 left.addEventListener("click", moveLeft);
 right.addEventListener("click", moveRight);
@@ -20,7 +20,7 @@ function moveLeft() {
     reviews[i + 1].style.display = "block";
     i++
   }
-}
+};
 
 
 function moveRight() {
@@ -34,13 +34,31 @@ function moveRight() {
     reviews[i - 1].style.display = "block";
     i--;
   }
-}
-
-console.log(moveRight)
+};
 
 setInterval(function () {
   moveLeft();
-}, 4000)
+}, 4000);
 
-// ********************************************************************************
-// *******************************************************************************
+// ************************************************************
+
+// start slider video
+
+let rightVideo = document.querySelector('.rightVideo');
+let a = 0;
+
+
+rightVideo.addEventListener('click', moveVideo);
+
+function moveVideo() {
+  let carousel = document.querySelector('.carousel');
+  a = a - 313;
+  if (a < -626) {
+    a = 0;
+  }
+  carousel.style.left = a + 'px'
+};
+
+setInterval(function () {
+  moveVideo()
+}, 2000)
