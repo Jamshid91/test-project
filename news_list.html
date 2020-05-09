@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global News</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+  <link rel="shortcut icon" href="assets/images/world.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container  hat-site">
+    <div class="row align-items-center align-self-center hat-site-desktop">
+      <div class="col-md-2">
+        <a href="index.html"><img src="assets/images/Логотип.png" alt="logo" class="w-100"></a>
+      </div>
+      <div class="col-md-8 hat-info ml-auto">
+        <ul class="hat-item ml-auto">
+          <li><a class="item-list" href="#"><img src="assets/images/иконка доллара.png" alt="">9550.21 <img
+                src="assets/images/стрелка.png" alt=""></a></li>
+          <li><a class="item-list" href="#"><img src="assets/images/euro.png" alt="">10112.27 <img
+                src="assets/images/стрелка_sub.png" alt=""></a></li>
+          <li><a class="item-list" href="#"><img src="assets/images/rubl.png" alt="">125.2<img
+                src="assets/images/стрелка.png" alt=""></a>
+          </li>
+        </ul>
+
+        <div class="hat-weather">
+          <span class="city-name"></span><span class="temp-city" style="padding-left: 5px;"></span>
+        </div>
+
+        <div class="hat-date">
+          <span class="monthDay"></span> <span class="day"></span><span style="color: #1ebdf1;">| </span><span
+            class="time" style="font-weight: 500; font-size: 15px;">17:07:33</span><span style="color: #1ebdf1;">
+            |</span><span class="week-day"></span>
+        </div>
+
+        <form action="#">
+          <select name="language" id="language">
+            <option value="0"><a href="#">O'zbekcha</a></option>
+            <option value="1"><a href="#">Русский</a></option>
+            <option value="2"><a href="#">English</a></option>
+          </select>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10 mobile-header">
+        <div class="hite-site-mobile">
+          <div class="menu-burger">
+            <span class="menu-list"></span>
+            <span class="menu-list"></span>
+            <span class="menu-list"></span>
+          </div>
+          <div class="logo-mobile">
+            <a href="#">
+              <img src="assets/images/Логотип.png" alt="">
+            </a>
+          </div>
+          <div class="search-mobile">
+            <input type="text" class="search-mobile-input hidden">
+            <i class="fas fa-search" style="cursor: pointer;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="menu hidden">
+          <div class="menu-item"><a href="#">главное</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">узбекистан</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">спорт</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">наука и технология</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">экономика</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">мир</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">здоровье</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== END hat ====== -->
+
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <nav class="header-nav">
+            <ul class="nav-item">
+              <li class="nav-list"><a href="index.html">главное</a></li>
+              <li class="nav-list"><a href="#">узбекистан</a><img src="assets/images/icon-down.png" alt="" class="down">
+              </li>
+              <div class="menu menu1 hidden">
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+              </div>
+
+              <li class="nav-list"><a href="#">спорт</a><img src="assets/images/icon-down.png" alt="" class="down"></li>
+              <div class="menu menu2 hidden">
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+              </div>
+              <li class="nav-list"><a href="#">наука и технология</a><img src="assets/images/icon-down.png" alt=""
+                  class="down"></li>
+              <div class="menu menu3 hidden">
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+              </div>
+              <li class="nav-list"><a href="#">экономика</a><img src="assets/images/icon-down.png" alt="" class="down">
+              </li>
+              <div class="menu menu4 hidden">
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+              </div>
+              <li class="nav-list" class="down"><a href="#">полезное</a><img src="assets/images/icon-down.png" alt=""
+                  class="down">
+              </li>
+              <div class="menu menu5 hidden">
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+              </div>
+              <li class="nav-list"><a href="#">мир</a></li>
+              <li class="nav-list"><a href="#">здоровье</a></li>
+              <li class="nav-list"><a href="#">Еще</a><img src="assets/images/icon-down.png" alt="" class="down"></li>
+              <div class="menu menu6 hidden">
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+                <li><a href="#/">Lorem</a></li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="search-icon d-flex w-100">
+            <input type="text" placeholder="Поиск" class="search-input hidden-search">
+            <img src="assets/images/search.png" alt="" class="search ml-auto animated pulse infinite ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- === END header === -->
+
+
+  <section class="last-news-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <div class="tif-block">
+            <div class="telegram-block tif">
+              <a href="http://telegram.com"><i class="fab fa-telegram-plane fa-2x"></i> </a>
+            </div>
+            <div class="instagram-block tif">
+              <a href="http://instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+            <div class="facebook-block tif">
+              <a href="http://facebook.com"><i class="fab fa-facebook-f fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="news-block-hat">
+            <h1>Шодмонов рассказал, сколько государство
+              тратит на лечение больного коронавирусом</h1>
+            <img src="assets/images/news-block.img.jpg" alt="" class="w-100">
+            <div class="news-data-time">
+              <div class="data-time">
+                <img src="assets/images/time.png" alt="">
+                <span>13:03</span> /
+                <span>12 апрелья</span> |
+                <img src="assets/images/глаза.png" alt="">
+                <span>47 080</span> |
+                <img src="assets/images/region.png" alt="">
+                <span>Узбекистан</span> |
+                <span>Поделиться</span>
+                <img src="assets/images/left-icon.png" alt="">
+              </div>
+              <div class="news-site">
+                <img src="assets/images/world-icon.png" alt="">
+                <a href="http://uzreport.uz">UzReport News</a>
+              </div>
+            </div>
+          </div>
+          <hr class="news-data-time-line">
+
+          <div class="news-block-info-text">
+            <p>Министр здравоохранения Алишер Шодмонов в ходе очередной сессии международного пресс-клуба
+              рассказал, сколько
+              государство тратит на лечение больного коронавирусом в Узбекистане.
+            </p><br>
+            <var>«Лечение одного больного коронавирусной инфекцией, у которого состояние здоровья средней тяжести,
+              обходится бюджету в 32 млн сумов или 3,2 тыс. долларов США. Если больной находится в реанимации и
+              состояние его здоровья тяжелое – 64 млн сумов», - рассказал он.
+            </var><br><br>
+
+            <p>Алишер Шодмонов также сообщил, что 14-дневный карантин одного человека обходится государству в 2,4 млн
+              сумов, а последующая 14-дневная реабилитация – в 2,8 млн сумов.
+            </p><br>
+            <p>Обратите внимание на тот факт, что в США незастрахованные пациенты должны платить около 73,3 тыс.
+              долларов
+              за шестидневное лечение, а застрахованные - 38,2 тыс. долларов.
+            </p><br>
+
+            <p>
+              Напомним, что в настоящее время в Узбекистане от коронавирусной инфекции полностью излечились 454
+              человека.
+              По состоянию на 22 апреля 2020 года 23:00 часов в Узбекистане число случаев заражения коронавирусной
+              инфекцией составляет 1716.
+            </p>
+          </div>
+
+          <div class="my-site-btn">
+            <button>
+              <i class="fab fa-telegram-plane fa-2x"></i>
+              Наш канал в Telegram
+            </button>
+          </div>
+        </div>
+        <!-- ======= END left block ===== -->
+
+        <div class="col-md-4 d-flex">
+          <div class="line" style="margin-left: 20px;">
+            <img src="assets/images/Полоса2.png" alt="">
+          </div>
+          <div class="top-right-news" style="margin-left: 12px;">
+
+            <div class="hat-text-block-right">
+              <h2>Топовые новости</h2>
+              <hr>
+            </div>
+
+            <div class="top-news d-flex">
+              <div class="photo-top-news">
+                <img src="assets/images/imgR1.png" alt="">
+              </div>
+              <div class="top-news-info">
+                <h3><a href="#">Ученые показали, как
+                    коронавирус
+                    распространяется
+                    после кашля
+                  </a></h3>
+
+                <div class="news-users d-flex">
+                  <div class="user-right">
+                    <img src="assets/images/глаза.png" alt="">
+                    <span>19 255</span>
+                  </div>
+
+                  <div class="info-user-right d-flex justify-content-space-between">
+                    <div class="time">
+                      <img src="assets/images/time.png" alt="">
+                      <span>15:33 | 7 апреля</span>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vertical-line">
+              <hr>
+            </div>
+            <!-- ==== END top-news ===== -->
+
+            <div class="top-news d-flex">
+              <div class="photo-top-news">
+                <img src="assets/images/imgR2.png" alt="">
+              </div>
+              <div class="top-news-info">
+                <h3><a href="#">Около 8100 граждан
+                    помещены в
+                    специальную больницу
+                    в Юкоричирчикском
+                    районе
+                  </a></h3>
+
+                <div class="news-users d-flex">
+                  <div class="user-right">
+                    <img src="assets/images/глаза.png" alt="">
+                    <span>19 255</span>
+                  </div>
+
+                  <div class="info-user-right d-flex justify-content-space-between">
+                    <div class="time">
+                      <img src="assets/images/time.png" alt="">
+                      <span>15:33 | 7 апреля</span>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vertical-line">
+              <hr>
+            </div>
+            <!-- ==== END top-news ===== -->
+
+            <div class="top-news d-flex">
+              <div class="photo-top-news">
+                <img src="assets/images/imgR3.png" alt="">
+              </div>
+              <div class="top-news-info">
+                <h3><a href="#">Эксперт рассказал о том,
+                    как коронавирус может
+                    повлиять на экономику
+                    Узбекистана
+                  </a></h3>
+
+                <div class="news-users d-flex">
+                  <div class="user-right">
+                    <img src="assets/images/глаза.png" alt="">
+                    <span>84 255</span>
+                  </div>
+
+                  <div class="info-user-right d-flex justify-content-space-between">
+                    <div class="time">
+                      <img src="assets/images/time.png" alt="">
+                      <span>12:45 |12 апреля</span>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vertical-line">
+              <hr>
+            </div>
+            <!-- ==== END top-news ===== -->
+
+            <div class="top-news d-flex">
+              <div class="photo-top-news">
+                <img src="assets/images/imgR4.png" alt="">
+              </div>
+              <div class="top-news-info">
+                <h3><a href="#">Спецкомиссия:
+                    пенсионеры будут
+                    получать пенсию в
+                    полном размере на
+                    пластик
+                  </a></h3>
+
+                <div class="news-users d-flex">
+                  <div class="user-right">
+                    <img src="assets/images/глаза.png" alt="">
+                    <span>65 325</span>
+                  </div>
+
+                  <div class="info-user-right d-flex justify-content-space-between">
+                    <div class="time">
+                      <img src="assets/images/time.png" alt="">
+                      <span>22:05 |11 апреля</span>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vertical-line">
+              <hr>
+            </div>
+            <!-- ==== END top-news ===== -->
+
+            <div class="top-news d-flex">
+              <div class="photo-top-news">
+                <img src="assets/images/imgR5.png" alt="">
+              </div>
+              <div class="top-news-info">
+                <h3><a href="#">Депутат: «Членство в
+                    ЕАЭС может ограничить
+                    наши возможности во
+                    многих направлениях»
+                  </a></h3>
+
+                <div class="news-users d-flex">
+                  <div class="user-right">
+                    <img src="assets/images/глаза.png" alt="">
+                    <span>46 525</span>
+                  </div>
+
+                  <div class="info-user-right d-flex justify-content-space-between">
+                    <div class="time">
+                      <img src="assets/images/time.png" alt="">
+                      <span>08:05 |12 апреля</span>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vertical-line">
+              <hr>
+            </div>
+            <!-- ==== END top-news ===== -->
+
+            <div class="top-news d-flex">
+              <div class="photo-top-news">
+                <img src="assets/images/imgR6.png" alt="">
+              </div>
+              <div class="top-news-info">
+                <h3><a href="#">Плановые и внеплановые
+                    налоговые проверки
+                    останутся в истории
+                  </a></h3>
+
+                <div class="news-users d-flex">
+                  <div class="user-right">
+                    <img src="assets/images/глаза.png" alt="">
+                    <span>86 200</span>
+                  </div>
+
+                  <div class="info-user-right d-flex justify-content-space-between">
+                    <div class="time">
+                      <img src="assets/images/time.png" alt="">
+                      <span>14:05 |12 апреля</span>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vertical-line">
+              <hr>
+            </div>
+            <!-- ==== END top-news ===== -->
+
+            <div class="top-news d-flex">
+              <div class="photo-top-news">
+                <img src="assets/images/imgR7.png" alt="">
+              </div>
+              <div class="top-news-info">
+                <h3><a href="#">За время карантина
+                    воздух в Ташкенте стал
+                    чище почти в два раза
+                  </a></h3>
+
+                <div class="news-users d-flex">
+                  <div class="user-right">
+                    <img src="assets/images/глаза.png" alt="">
+                    <span>87 368</span>
+                  </div>
+
+                  <div class="info-user-right d-flex justify-content-space-between">
+                    <div class="time">
+                      <img src="assets/images/time.png" alt="">
+                      <span>16:22 |13 апреля</span>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ==== END top-news ===== -->
+
+            <div class="calendar-box">
+              <div id="calendar_table"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+  <!--===== END SECTION last-news ==== -->
+
+
+
+
+  <div class="container footer-desktop">
+    <div class="row">
+      <div class="col-12">
+        <div class="line-footer">
+          <hr>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-align-center">
+      <div class="col-lg-3 justify-content-center text-align-center logo-footer">
+        <a href="index.html"><img src="assets/images/Логотип.png" alt="" class="w-100" class="logo-footer"></a>
+      </div>
+      <div class="col-lg-4 ml-auto">
+        <div class="category">
+          <h2>Категории </h2>
+          <hr>
+        </div>
+        <div class="category-info">
+          <div class="category-item-left">
+            <div class="logo-text">
+              <div class="logo"><img src="assets/images/1.png" alt=""></div>
+              <div class="text">
+                <a href="#">Узбекистан</a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="logo"><img src="assets/images/1.2.png" alt=""></div>
+              <div class="text">
+                <a href="#">Экономика</a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="logo"><img src="assets/images/2.png" alt=""></div>
+              <div class="text">
+                <a href="#">Здоровье</a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="logo"><img src="assets/images/3.png" alt=""></div>
+              <div class="text">
+                <a href="#">Политика </a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="logo"><img src="assets/images/4.png" alt=""></div>
+              <div class="text">
+                <a href="#">Общество</a>
+              </div>
+            </div>
+          </div>
+          <!-- end left -->
+
+          <div class="category-item-right">
+            <div class="logo-text">
+              <div class="logo"><img src="assets/images/5.png" alt=""></div>
+              <div class="text">
+                <a href="#">Наука </a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="logo"><img src="assets/images/6.png" alt=""></div>
+              <div class="text">
+                <a href="#">Спорт</a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="logo"><img src="assets/images/7.png" alt=""></div>
+              <div class="text">
+                <a href="#">Культура</a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="logo"><img src="assets/images/8.png" alt=""></div>
+              <div class="text">
+                <a href="#">Мир</a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="text">
+                <a href="#" style="font-weight: 700;">Все категории</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- === -->
+
+      <div class="col-lg-4 info">
+        <div class="site">
+          <h2>Сайты</h2>
+          <hr>
+        </div>
+        <div class="site-info">
+          <div class="site-item-left">
+            <div class="logo-text">
+              <div class="text">
+                <a href="http://repost.uz"><u>Repost uz</u></a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="text">
+                <a href="http://nuz.uz"><u>Nuz uz</u></a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="text">
+                <a href="http://gazeta.uz"><u>Gazeta uz</u></a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="text">
+                <a href="http://kun.uz"><u>Kun uz</u></a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="text">
+                <a href="http://sport.uz"><u>Spot uz</u></a>
+              </div>
+            </div>
+          </div>
+          <!-- ***** -->
+
+          <div class="site-item-right">
+            <div class="logo-text">
+              <div class="text">
+                <a href="http://upl.uz"><u>Upl uz </u></a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="text">
+                <a href="http://uzreport.news"><u>Uzreport News</u></a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="text">
+                <a href="http://president.uz"><u>President uz</u></a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="text">
+                <a href="http://uzA.uz"><u>UzA uz</u></a>
+              </div>
+            </div>
+            <div class="logo-text">
+              <div class="text">
+                <a href="#" style="font-weight: 700;">Все сайты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ****** -->
+    </div>
+  </div>
+  <!-- END FOOTER DESKTOP -->
+
+  <!-- START FOOTER MOBILE -->
+  <div class="container footer-mobile">
+    <div class="row justify-content-center">
+      <div class="col-10 category">
+        <h3>Категории</h3>
+        <hr class="w-100">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="category-info">
+          <div class="category-left">
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/1.png" alt=""></div>
+              <div class="text">
+                <a href="#">Узбекистан</a>
+              </div>
+            </div>
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/1.2.png" alt=""></div>
+              <div class="text">
+                <a href="#">Экономика</a>
+              </div>
+            </div>
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/2.png" alt=""></div>
+              <div class="text">
+                <a href="#">Здоровье</a>
+              </div>
+            </div>
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/3.png" alt=""></div>
+              <div class="text">
+                <a href="#">Политика </a>
+              </div>
+            </div>
+
+          </div>
+          <!-- end category-left -->
+
+          <div class="category-right">
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/4.png" alt=""></div>
+              <div class="text">
+                <a href="#">Общество</a>
+              </div>
+            </div>
+            <div class="category-item-right">
+              <div class="category-item">
+                <div class="logo"><img src="assets/images/5.png" alt=""></div>
+                <div class="text">
+                  <a href="#">Наука </a>
+                </div>
+              </div>
+              <div class="category-item">
+                <div class="logo"><img src="assets/images/6.png" alt=""></div>
+                <div class="text">
+                  <a href="#">Спорт</a>
+                </div>
+              </div>
+              <div class="category-item">
+                <div class="logo"><img src="assets/images/7.png" alt=""></div>
+                <div class="text">
+                  <a href="#">Культура</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="all-category d-flex align-items-center">
+        <h3>все категории </h3>
+        <img src="assets/images/category-icon-down.png" alt="" class="ml-2">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10 sites">
+        <h3>Сайты</h3>
+        <hr class="w-100">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="sites-item">
+          <div class="sites-left">
+            <div class="sites-list">
+              <div class="text">
+                <img src="assets/images/world-icon.png" alt="">
+                <a href="http://repost.uz">Repost uz</a>
+              </div>
+            </div>
+            <div class="sites-list">
+              <div class="text">
+                <img src="assets/images/world-icon.png" alt="">
+                <a href="http://gazeta.uz">Gazeta uz</a>
+              </div>
+            </div>
+          </div>
+          <div class="sites-right">
+            <div class="sites-list">
+              <div class="text">
+                <img src="assets/images/world-icon.png" alt="">
+                <a href="http://repost.uz">Repost uz</a>
+              </div>
+            </div>
+            <div class="sites-list">
+              <div class="text">
+                <img src="assets/images/world-icon.png" alt="">
+                <a href="http://gazeta.uz">Gazeta uz</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-8 all-site-btn">
+        <button class="w-100">все сайты </button>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-8 footer-mobile-logo">
+        <a href="index.html"><img src="assets/images/Логотип.png" alt="" class="w-100"></a>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <p>
+            © 2020 “GlobalNews” Все права защищены
+          </p>
+        </div>
+
+        <div class="col-lg-2 ml-auto">
+          <div class="icon-footer">
+            <a href="http://telegrem.com"><i class="fab fa-telegram-plane fa-2x"></i> </a>
+            <a href="http://facebook.com"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href="http://instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="footer-sub-mobile">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 footer-sub-info">
+          <div class="footer-sub-text">
+            <p>© 2020 “GlobalNews” </p>
+          </div>
+          <div class="footer-sub-icon">
+            <a href="http://telegrem.com"><i class="fab fa-telegram-plane"></i> </a>
+            <a href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="node_modules/wowjs/dist/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="assets/js/slider.js"></script>
+  <script src="assets/js/time.js"></script>
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/textSlider.js"></script>
+  <script src="assets/js/calendar.js"></script>
+  <script src="assets/js/weather.js"></script>
+  <script src="assets/js/mobile.js"></script>
+</body>
+
+</html>
