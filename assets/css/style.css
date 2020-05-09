@@ -538,6 +538,8 @@ html {
           width: 290px;
           height: 300px;
           float: left; }
+          html body .slider .carousels .lists a {
+            color: #fff; }
     html body .slider-mobile-hat-text {
       padding-top: 40px;
       font-size: 17px;
@@ -821,6 +823,8 @@ html {
         height: 1px; }
 
 @media screen and (min-width: 993px) {
+  body .mobile-header {
+    display: none; }
   body .photos .photos-slider {
     display: block;
     position: relative;
@@ -1054,6 +1058,8 @@ html {
   body .footer-desktop {
     display: none; }
   body footer {
+    display: none; }
+  body .tif-block {
     display: none; } }
 @media screen and (max-width: 768px) {
   body .top-news-img {

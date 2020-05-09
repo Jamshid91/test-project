@@ -45,12 +45,22 @@ setInterval(function () {
 // start slider video
 
 let rightVideo = document.querySelector('.rightVideo');
+let leftVideo = document.querySelector('.leftVideo');
 let a = 0;
 
+leftVideo.addEventListener('click', moveVideoLeft);
+rightVideo.addEventListener('click', moveVideoRight);
 
-rightVideo.addEventListener('click', moveVideo);
+function moveVideoLeft() {
+  let carousel = document.querySelector('.carousel');
+  a = a + 313;
+  if (a > 0) {
+    a = 0;
+  }
+  carousel.style.left = a + 'px'
+};
 
-function moveVideo() {
+function moveVideoRight() {
   let carousel = document.querySelector('.carousel');
   a = a - 313;
   if (a < -626) {
@@ -60,5 +70,5 @@ function moveVideo() {
 };
 
 setInterval(function () {
-  moveVideo()
-}, 2000)
+  moveVideoRight()
+}, 3000)

@@ -1,5 +1,9 @@
 @media screen and (min-width: 993px) {
   body {
+    .mobile-header {
+      display: none;
+    }
+
     .photos {
       .photos-slider {
         display: block;
@@ -371,6 +375,10 @@
     }
 
     footer {
+      display: none;
+    }
+
+    .tif-block {
       display: none;
     }
   }
