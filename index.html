@@ -13,12 +13,12 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row align-items-center align-self-center">
-      <div class="col-lg-2">
+  <div class="container  hat-site">
+    <div class="row align-items-center align-self-center hat-site-desktop">
+      <div class="col-md-2">
         <a href="index.html"><img src="assets/images/Логотип.png" alt="logo" class="w-100"></a>
       </div>
-      <div class="col-lg-8 hat-info ml-auto">
+      <div class="col-md-8 hat-info ml-auto">
         <ul class="hat-item ml-auto">
           <li><a class="item-list" href="#"><img src="assets/images/иконка доллара.png" alt="">9550.21 <img
                 src="assets/images/стрелка.png" alt=""></a></li>
@@ -30,7 +30,7 @@
         </ul>
 
         <div class="hat-weather">
-          <a class="weather" href="#">Ташкент: +23 <sup>o <sub style="font-size: 13px;">C</sub></sup></a>
+          <span class="city-name"></span><span class="temp-city" style="padding-left: 5px;"></span>
         </div>
 
         <div class="hat-date">
@@ -49,7 +49,48 @@
         </form>
       </div>
     </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10 mobile-header">
+        <div class="hite-site-mobile">
+          <div class="menu-burger">
+            <span class="menu-list"></span>
+            <span class="menu-list"></span>
+            <span class="menu-list"></span>
+          </div>
+          <div class="logo-mobile">
+            <a href="#">
+              <img src="assets/images/Логотип.png" alt="">
+            </a>
+          </div>
+          <div class="search-mobile">
+            <input type="text" class="search-mobile-input hidden">
+            <i class="fas fa-search" style="cursor: pointer;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="menu hidden">
+          <div class="menu-item"><a href="#">главное</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">узбекистан</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">спорт</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">наука и технология</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">экономика</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">мир</a></div>
+          <hr>
+          <div class="menu-item"><a href="#">здоровье</a></div>
+        </div>
+      </div>
+    </div>
   </div>
+
   <!-- ===== END hat ====== -->
 
   <header id="header">
@@ -119,7 +160,7 @@
   <!-- === END header === -->
 
   <div class="container news">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-12 d-flex">
         <div class="box-icon"><a href="#"><img src="assets/icons/Desktop/004-timer.svg" alt=""></a></div>
         <div class="box-news">
@@ -141,40 +182,42 @@
   <section class="photos">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
           <div class="photos-slider w-100">
             <button class="prev"><i class="fas fa-chevron-left"></i></button>
             <button class="next"><i class="fas fa-chevron-right"></i></button>
             <div class="img w-100">
               <img src="assets/images/fon1.png" alt="" class="w-100">
-              <a href="#">Технологии виртуальной реальности
+              <a href="#" photo-slider-text>Технологии виртуальной реальности
                 помогают стать людям ближе во
                 время карантина</a>
             </div>
             <div class="img w-100" style="display: none;">
               <img src="assets/images/images.jpg" alt="" class="w-100">
-              <a href="#">Далеко-далеко за словесными горами в стране, гласных и согласных живут.</a>
+              <a href="#" photo-slider-text>Далеко-далеко за словесными горами в стране, гласных и согласных живут.</a>
             </div>
             <div class="img w-100" style="display: none;">
               <img src="assets/images/images (1).jpg" alt="" class="w-100">
-              <a href="#">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</a>
+              <a href="#" photo-slider-text>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                тексты.</a>
             </div>
           </div>
 
-          <div class="photos-sub d-flex justify-content-center p-0 m-0">
-            <a href="#"><img src="assets/images/photo1.png" class="img1" alt=""></a>
-            <a href="#"><img src="assets/images/photo2.png" alt=""></a>
-            <a href="#"><img src="assets/images/photo3.png" alt=""></a>
-            <a href="#"><img src="assets/images/photo4.png" alt=""></a>
+          <div class="photos-sub d-flex justify-content-center">
+            <a href="#"></a><img src="assets/images/photo1.png" class="mobile-none" alt=""></a>
+            <a href="#"></a><img src="assets/images/photo2.png" class="mobile-none" alt=""></a>
+            <a href="#"></a><img src="assets/images/photo3.png" class="mobile-none" alt=""></a>
+            <a href="#"></a><img src="assets/images/photo4.png" class="mobile-none" alt=""></a>
           </div>
         </div>
 
-        <div class="col-lg-3 photo-right-middle">
-          <a href="#">Бельгии восстанавливается
+
+        <div class="col-md-3 photo-right-middle mobile-none">
+          <a href="#" class="mobile-none">Бельгии восстанавливается
             движение автобусов</a>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-md-3 mobile-none">
           <div class="photo-right-sup">
             <a href="#">Мировые акции упали на 13%
               Крах или обновление ?</a>
@@ -188,9 +231,21 @@
           </div>
         </div>
       </div>
+      <div class="row no-gutters">
+        <div class="col-4 photo-sub-mobile">
+          <a href="#"><img src="assets/images/mobile_img_1.png" alt="" class="photo-sub-mobile-none"></a>
+        </div>
+        <div class="col-4 photo-sub-mobile">
+          <a href="#"><img src="assets/images/mobile_img_2.png" alt="" class="photo-sub-mobile-none"></a>
+        </div>
+        <div class="col-4 photo-sub-mobile">
+          <a href="#"><img src="assets/images/mobile_img_3.png" alt="" class="photo-sub-mobile-none"></a>
+        </div>
+      </div>
     </div>
   </section>
   <!-- === END photos ==== -->
+
 
   <section class="last-news">
     <div class="container">
@@ -206,7 +261,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-md-8">
           <div class="last-news-info">
             <div class="photo-news-info d-flex align-items-center wow fadeInUp" data-wow-duration="2s">
               <img src="assets/images/img1.png" alt="" class="photo-info">
@@ -231,9 +286,9 @@
                     <span>19 255</span>
                   </div>
 
-                  <div class="menu">
+                  <div class="menu-economy">
                     <img src="assets/images/menu.png" alt="">
-                    <span>Экономика </span>
+                    <a href="#"><span>Экономика </span></a>
                   </div>
                 </div>
               </div>
@@ -266,7 +321,7 @@
                     <span>42 200</span>
                   </div>
 
-                  <div class="menu">
+                  <div class="menu-economy">
                     <img src="assets/images/menu.png" alt="">
                     <span>Экономика </span>
                   </div>
@@ -299,7 +354,7 @@
                     <span>47 080</span>
                   </div>
 
-                  <div class="menu">
+                  <div class="menu-economy">
                     <img src="assets/images/menu.png" alt="">
                     <span>Экономика </span>
                   </div>
@@ -331,7 +386,7 @@
                     <span>33 466</span>
                   </div>
 
-                  <div class="menu">
+                  <div class="menu-economy">
                     <img src="assets/images/menu.png" alt="">
                     <span>Экономика </span>
                   </div>
@@ -365,7 +420,7 @@
                     <span>19255</span>
                   </div>
 
-                  <div class="menu">
+                  <div class="menu-economy">
                     <img src="assets/images/menu.png" alt="">
                     <span>Экономика </span>
                   </div>
@@ -399,7 +454,7 @@
                     <span>49255</span>
                   </div>
 
-                  <div class="menu">
+                  <div class="menu-economy">
                     <img src="assets/images/menu.png" alt="">
                     <span>Экономика </span>
                   </div>
@@ -433,7 +488,7 @@
                     <span>19255</span>
                   </div>
 
-                  <div class="menu">
+                  <div class="menu-economy">
                     <img src="assets/images/menu.png" alt="">
                     <span>Экономика </span>
                   </div>
@@ -445,13 +500,7 @@
         </div>
         <!-- ======= END left block ===== -->
 
-        <!-- <div class="col-md-1">
-          <div class="line">
-            <img src="assets/images/Полоса.png" alt="">
-          </div>
-        </div> -->
-
-        <div class="col-lg-4 d-flex">
+        <div class="col-md-4 d-flex">
           <div class="line" style="margin-left: 20px;">
             <img src="assets/images/Полоса.png" alt="">
           </div>
@@ -700,7 +749,7 @@
       </div>
 
       <div class="row d-flex  justify-content-center text-align-center">
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <div class="next-news-button">
             <button class="btn-next animated pulse infinite">Загрузить больше</button>
           </div>
@@ -710,17 +759,273 @@
   </section>
   <!--===== END SECTION last-news ==== -->
 
+  <!-- Start Last-news-mobile -->
+
+  <div class="container mobile-last-news">
+    <div class="row">
+      <div class="col-12 last-news-text-hat">
+        <h1>Последние новости</h1>
+        <hr class="line-hat">
+      </div>
+    </div>
+
+    <div class="row news-list no-gutters">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_1.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">Карантин в Узбекистане
+            продлен до 10 мая</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+
+    <div class="row news-list no-gutters d-flex align-items-center">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_2.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">Я оказалась без вины
+            виноватой - беседа
+            с Нигорой Муратовой,
+            первой пациенткой
+            с коронавирусом
+            в Узбекистане</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+
+    <div class="row news-list no-gutters d-flex align-items-center">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_3.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">Мирзиёев поручил
+            поэтапно смягчить
+            карантинные ограничения
+            в некоторых областях,
+            районах и городах</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+
+    <div class="row news-list no-gutters d-flex align-items-center">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_4.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">«Социальная помощь:
+            кому, как и где?» - ответы
+            на наиболее часто
+            задаваемые вопросы</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+
+    <div class="row news-list no-gutters d-flex align-items-center">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_5.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">Джамшид Кучкаров
+            рассказал об ожидаемой
+            международной помощи </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+
+    <div class="row news-list no-gutters d-flex align-items-center">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_6.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">Назван самый вероятный
+            путь заражения
+            коронавирусом</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+
+    <div class="row news-list no-gutters d-flex align-items-center">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_7.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">В чем основная причина
+            девальвации сума?</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+
+    <div class="row news-list no-gutters d-flex align-items-center">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_8.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">Может ли Узбекистан
+            рассчитывать на помощь
+            Запада во времена
+            кризиса?</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+
+    <div class="row news-list no-gutters d-flex align-items-center">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_9.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">Разрушенный хауз в
+            древней части Бухары:
+            шумиха в Интернете и
+            мнение местного
+            специалиста</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+
+    <div class="row news-list no-gutters d-flex align-items-center">
+      <div class=" col-3">
+        <img src="assets/images/mob_news_10.png" alt="" class="w-100">
+      </div>
+      <div class="col-8 mobile-news-text">
+        <div class="data-time d-flex align-items-center">
+          <img src="assets/images/icon_data-time.png" alt="">
+          <p style="padding-top: 8px; padding-left: 5px;"><span>22:00</span> / <span>21.04.2020</span></p>
+        </div>
+        <div class="mobile-news-text-right">
+          <a href="#">Медики Узбекистана и
+            Китая запустили
+            онлайн-консультации по
+            борьбе с COVID-19
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="line-news">
+      </div>
+    </div>
+    <!-- END news-list -->
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-10">
+        <button class="mobile-news-btn w-100">
+          mobile-last-news
+        </button>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Start slider video -->
   <div class="container hat-slider">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-8">
         <h1 class="hat-text-video">Последние Видео</h1>
         <hr>
       </div>
     </div>
   </div>
-
   <section class="slider-video">
     <div class="container slider">
 
@@ -775,9 +1080,171 @@
       </div>
     </div>
   </section>
-  <!-- END slider -->
+  <!-- END slider DESKTOP -->
 
-  <div class="container">
+  <!-- START SLIDER MOBILE -->
+  <div class="container slider-mobile-hat-video">
+    <div class="row">
+      <div class="col-10">
+        <h2 class="slider-mobile-hat-text">
+          Последние видео
+        </h2>
+        <hr class="line-slider-mobile">
+      </div>
+    </div>
+  </div>
+  <section class="slider-mobile-video">
+    <div class="container">
+      <div class="row slider-mobile-item">
+        <div class="slider-mobile-list">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END  slider-mobile-video-->
+
+  <div class="container top-news">
+    <div class="row top-news-hat">
+      <div class="col-10">
+        <h2>Топовые новости</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="top-news-img">
+          <div class="top-news-img-text">
+            <div class="icon">
+              <img src="assets/images/top-news-icon.png" alt="">
+              <span>12 466</span>
+            </div>
+            <p class="img-text">
+              Назван самый вероятный путь
+              заражения коронавирусом
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end top-news-img-->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="top-news-img img_2">
+          <div class="top-news-img-text">
+            <div class="icon">
+              <img src="assets/images/top-news-icon.png" alt="">
+              <span>12 466</span>
+            </div>
+            <a href="#">
+              Влияние весенних заморозков
+              на урожай, подорожавшая мука
+              и картофель – интервью с министром
+              сельского хозяйства</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end top-news-img-->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="top-news-img img_3">
+          <div class="top-news-img-text">
+            <div class="icon">
+              <img src="assets/images/top-news-icon.png" alt="">
+              <span>12 466</span>
+            </div>
+            <a href="#">
+              Влияние весенних заморозков
+              на урожай, подорожавшая мука
+              и картофель – интервью с министром
+              сельского хозяйства</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end top-news-img-->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="top-news-img img_4">
+          <div class="top-news-img-text">
+            <div class="icon">
+              <img src="assets/images/top-news-icon.png" alt="">
+              <span>12 466</span>
+            </div>
+            <a href="#">
+              Джамшид Кучкаров рассказал об
+              ожидаемой международной помощи
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end top-news-img-->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="top-news-img img_5">
+          <div class="top-news-img-text">
+            <div class="icon">
+              <img src="assets/images/top-news-icon.png" alt="">
+              <span>12 466</span>
+            </div>
+            <a href="#">
+              ​Мирзиёев утвердил
+              макроэкономический прогноз и
+              параметры государственного бюджета
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end top-news-img-->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="top-news-img img_6">
+          <div class="top-news-img-text">
+            <div class="icon">
+              <img src="assets/images/top-news-icon.png" alt="">
+              <span>12 466</span>
+            </div>
+            <a href="#">
+              В Узбекистане запустят
+              информационную систему
+              «Прозрачное строительство»ета
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end top-news-img-->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="top-news-img img_7">
+          <div class="top-news-img-text">
+            <div class="icon">
+              <img src="assets/images/top-news-icon.png" alt="">
+              <span>12 466</span>
+            </div>
+            <a href="#">
+              В Узбекистане запустят
+              информационную систему
+              «Прозрачное строительство»ета
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end top-news-img-->
+  </div>
+  <!-- END LAST NEWS MOBILE -->
+
+
+  <div class="container footer-desktop">
     <div class="row">
       <div class="col-12">
         <div class="line-footer">
@@ -862,7 +1329,6 @@
             </div>
           </div>
         </div>
-        <!-- *** -->
 
       </div>
 
@@ -932,9 +1398,140 @@
           </div>
         </div>
       </div>
-      <!--  -->
+      <!-- ****** -->
     </div>
   </div>
+  <!-- END FOOTER DESKTOP -->
+
+  <!-- START FOOTER MOBILE -->
+  <div class="container footer-mobile">
+    <div class="row justify-content-center">
+      <div class="col-10 category">
+        <h3>Категории</h3>
+        <hr class="w-100">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="category-info">
+          <div class="category-left">
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/1.png" alt=""></div>
+              <div class="text">
+                <a href="#">Узбекистан</a>
+              </div>
+            </div>
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/1.2.png" alt=""></div>
+              <div class="text">
+                <a href="#">Экономика</a>
+              </div>
+            </div>
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/2.png" alt=""></div>
+              <div class="text">
+                <a href="#">Здоровье</a>
+              </div>
+            </div>
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/3.png" alt=""></div>
+              <div class="text">
+                <a href="#">Политика </a>
+              </div>
+            </div>
+
+          </div>
+          <!-- end category-left -->
+
+          <div class="category-right">
+            <div class="category-item">
+              <div class="logo"><img src="assets/images/4.png" alt=""></div>
+              <div class="text">
+                <a href="#">Общество</a>
+              </div>
+            </div>
+            <div class="category-item-right">
+              <div class="category-item">
+                <div class="logo"><img src="assets/images/5.png" alt=""></div>
+                <div class="text">
+                  <a href="#">Наука </a>
+                </div>
+              </div>
+              <div class="category-item">
+                <div class="logo"><img src="assets/images/6.png" alt=""></div>
+                <div class="text">
+                  <a href="#">Спорт</a>
+                </div>
+              </div>
+              <div class="category-item">
+                <div class="logo"><img src="assets/images/7.png" alt=""></div>
+                <div class="text">
+                  <a href="#">Культура</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="all-category d-flex align-items-center">
+        <h3>все категории </h3>
+        <img src="assets/images/category-icon-down.png" alt="" class="ml-2">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10 sites">
+        <h3>Сайты</h3>
+        <hr class="w-100">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="sites-item">
+          <div class="sites-left">
+            <div class="sites-list">
+              <div class="text">
+                <img src="assets/images/world-icon.png" alt="">
+                <a href="http://repost.uz">Repost uz</a>
+              </div>
+            </div>
+            <div class="sites-list">
+              <div class="text">
+                <img src="assets/images/world-icon.png" alt="">
+                <a href="http://gazeta.uz">Gazeta uz</a>
+              </div>
+            </div>
+          </div>
+          <div class="sites-right">
+            <div class="sites-list">
+              <div class="text">
+                <img src="assets/images/world-icon.png" alt="">
+                <a href="http://repost.uz">Repost uz</a>
+              </div>
+            </div>
+            <div class="sites-list">
+              <div class="text">
+                <img src="assets/images/world-icon.png" alt="">
+                <a href="http://gazeta.uz">Gazeta uz</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-8 all-site-btn">
+        <button class="w-100">все сайты </button>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-8 footer-mobile-logo">
+        <a href="index.html"><img src="assets/images/Логотип.png" alt="" class="w-100"></a>
+      </div>
+    </div>
+  </div>
+
 
   <footer>
     <div class="container">
@@ -956,6 +1553,23 @@
     </div>
   </footer>
 
+  <div class="footer-sub-mobile">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 footer-sub-info">
+          <div class="footer-sub-text">
+            <p>© 2020 “GlobalNews” </p>
+          </div>
+          <div class="footer-sub-icon">
+            <a href="http://telegrem.com"><i class="fab fa-telegram-plane"></i> </a>
+            <a href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
   <script src="assets/js/jquery-3.4.1.min.js"></script>
@@ -968,6 +1582,8 @@
   <script src="assets/js/menu.js"></script>
   <script src="assets/js/textSlider.js"></script>
   <script src="assets/js/calendar.js"></script>
+  <script src="assets/js/weather.js"></script>
+  <script src="assets/js/mobile.js"></script>
 </body>
 
 </html>
